@@ -1,7 +1,26 @@
 var app = angular.module("Moja aplikacija", [])
 app.controller("myController", function ($scope) {
     $scope.filters = "";
-    $scope.people = [{   
+    $scope.people = [{
+        Ime: "Denin"
+        , Prezime: "Delic"
+        , Broj: "061456321"
+    }, {
+        Ime: "Dragan"
+        , Prezime: "Tomic"
+        , Broj: "062321654"
+    }, {
+        Ime: "Toni"
+        , Prezime: "Juric"
+        , Broj: "063963258"
+    }, {
+        Ime: "Vanja"
+        , Prezime: "Mak"
+        , Broj: "064687423"
+    }, {
+        Ime: "Nives"
+        , Prezime: "Cataj"
+        , Broj: "065941236"
     }];
     $scope.add = function () {
             $scope.editIme = "";
